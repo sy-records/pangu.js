@@ -18,12 +18,7 @@ define('PANGUJS_VERSION', '1.0.0');
 function pangujs_enqueue_scripts()
 {
     wp_enqueue_script('pangujs', plugins_url('js/pangu.min.js', __FILE__), array(), PANGUJS_VERSION, true);
-    $autoJS = <<<EOF
-document.addEventListener('DOMContentLoaded', () => {
-    pangu.autoSpacingPage();
-});
-EOF;
-
+    $autoJS = "document.addEventListener('DOMContentLoaded', () => {pangu.autoSpacingPage();});";
     wp_add_inline_script('pangujs', $autoJS);
 }
 
