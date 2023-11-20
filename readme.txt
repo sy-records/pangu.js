@@ -3,7 +3,7 @@ Contributors: shenyanzhi
 Donate link: https://qq52o.me/sponsor.html
 Tags: pangu, spacing, text, format
 Requires at least: 4.2
-Tested up to: 6.3
+Tested up to: 6.4
 Requires PHP: 5.6
 Stable tag: 1.0.0
 License: MIT
@@ -21,11 +21,12 @@ License URI: https://opensource.org/licenses/MIT
 
 == Installation ==
 
-1. Upload the folder `pangujs` to the `/wp-content/plugins/` directory
+1. Upload the folder `pangu-js` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. That's all
 
 == Changelog ==
 
 = 1.0.0 =
+
 * First version
